@@ -1,7 +1,8 @@
 # Andriod-ROM-Guide
 Welcome to the Android ROM Guide repository! This guide aims to provide comprehensive instructions for flashing custom ROMs on Android devices.
 
-DISCLAIMER: I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. YOU are choosing to make these modifications, and if you point a finger at me for messing up your device, I will laugh at you.
+### Disclaimer
+**DISCLAIMER:** I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. YOU are choosing to make these modifications, and if you point a finger at me for messing up your device, I will laugh at you. If you do attempt any of the below, you do so on your own discretion. Unlocking the bootloader and flashing custom ROMs can potentially lead to unintended consequences, including but not limited to data loss, device malfunction, and voiding of warranties. By proceeding with the instructions provided in this guide, you acknowledge and accept the associated risks. Make sure to follow the instructions carefully and proceed cautiously.
 
 ## Table of Contents
 
@@ -22,28 +23,25 @@ Before you proceed, make sure you have:
 - Sufficient battery charge (ideally above 50%).
 - A reliable internet connection.
 - A Relable USB Cable.
+- Data backup
 
-## Instructions
-
-1. **Unlock Bootloader**:
-If you haven't already, unlock your device's bootloader. Note that this 
-   
-3. **Install Custom Recovery**: Flash a custom recovery like TWRP or CWM using tools appropriate for your device model.
-
-4. **Backup Your Data**: Perform a full backup of your current ROM, apps, and data using the custom recovery.
-
-5. **Download ROM**: Download the desired custom ROM and any additional files (GApps, Magisk, etc.) onto your device.
-
-6. **Wipe Data**: In the custom recovery, perform a factory reset and wipe cache, dalvik cache, system, and data partitions.
-
-7. **Flash ROM**: Navigate to the location where the custom ROM zip file is stored and flash it using the custom recovery.
-
-8. **Optional: Flash GApps and Magisk**: If needed, fl
-
-
-## Tips and Troubleshooting
+and also 
 
 - Always verify the compatibility of the custom ROM with your device model and variant.
 - If you encounter any issues during the flashing process, refer to the XDA Developers forum or the official support channels for assistance.
 - Make sure to keep backups of your important data and ROMs in case anything goes wrong.
 - Be cautious and follow instructions carefully to avoid bricking your device.
+
+## Instructions
+
+1. **Unlock Bootloader**:
+**You will void your warranty and lose all your data, unlocking the bootloader will wipe everything off your phone**
+
+- This guide by [ifixit](https://www.ifixit.com/Guide/How+to+unlock+the+bootloader+of+an+Android+Phone/152629)
+- [Realme](https://www.getdroidtips.com/unlock-bootloader-realme/)
+- [Motorola](https://en-us.support.motorola.com/app/standalone/bootloader/unlock-your-device-c)
+- [Xiaomi](https://en.miui.com/unlock/download_en.html)
+
+Some manufacturers like Xiaomi, Realme, Nokia, Samsung require aditional steps to unlock the bootloader. 
+Motorola, Pixel, OnePlus phones usually do not require any additional setup
+
